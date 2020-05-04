@@ -39,17 +39,20 @@ Please download the dataset at [Kimia Path24](https://kimialab.uwaterloo.ca/kimi
 
 **Step 2** Train the model.
 
-Run the `./train.py` to train the model. There are three models (`ABE_M`, `resnet50`, and `se_resnet50`) and three loss functions (`ABELoss`, `ContrastiveLoss`, and `MSLoss`) can be chosen. The combination of `se_resnet50` and `MSLoss` is corresponding to the proposed method.
+Run `./train.py` to train the model. There are three models (`ABE_M`, `resnet50`, and `se_resnet50`) and three loss functions (`ABELoss`, `ContrastiveLoss`, and `MSLoss`) can be chosen. The combination of `se_resnet50` and `MSLoss` is corresponding to the proposed method. `./train_traindata.py` can be used to reproduce the experiment about the size of training data.
 ```
-python3 train.py se_resnet50 MSLoss
+python3 train.py <se_resnet50> <MSLoss>
 ```
 
 **Step 3** Test the model.
 
+Run `./multi_test.py` to calculate evaluation metrics on all weight files in the given `weight_folder`.
+```
+python3 multi_test.py <weight_folder>
+```
+The proposed method achieves the new state-of-the-art on Kimia Path24 retrieval task.
 
-
-
-
+![cfm](https://github.com/easonyang1996/DML_HistoImgRetrieval/blob/master/figs/confusion_mat.jpeg)
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
