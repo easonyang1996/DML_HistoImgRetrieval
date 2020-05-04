@@ -55,7 +55,7 @@ The proposed method achieves the new state-of-the-art on Kimia Path24 retrieval 
 ![cfm](https://github.com/easonyang1996/DML_HistoImgRetrieval/blob/master/figs/confusion_mat.jpeg)
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Reference
 [1] Babaie M, Kalra S, Sriram A, Mitcheltree C, Zhu S, Khatami A, Rahnamayan S, Tizhoosh HR. Classification and retrieval of digital pathology scans: A new dataset. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops 2017 (pp. 8-16).
