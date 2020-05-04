@@ -102,8 +102,8 @@ if __name__ == '__main__':
     loss_dict = {'ABELoss':ABE_loss, 'ContrastiveLoss':ContrastiveLoss, 'MsLoss':Ms_loss}
 
 
-    #model = model_dict[model_name](attention=True)#################### remove attention
-    model = model_dict[model_name]()
+    model = model_dict[model_name](attention=True)
+    #model = model_dict[model_name]()  #################### remove attention
     if torch.cuda.device_count() > 1:
         print("Let's use {} GPUs!".format(torch.cuda.device_count()))
         model = nn.DataParallel(model)
