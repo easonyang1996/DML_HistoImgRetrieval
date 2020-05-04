@@ -54,6 +54,21 @@ The proposed method achieves the new state-of-the-art on Kimia Path24 retrieval 
 
 ![cfm](https://github.com/easonyang1996/DML_HistoImgRetrieval/blob/master/figs/confusion_mat.jpeg)
 
+# Citation
+
+**Yang, Pengshuai**, Yupeng Zhai, Lin Li, Hairong Lv, Jigang Wang, Chengzhan Zhu, and Rui Jiang. "Liver Histopathological Image Retrieval Based on Deep Metric Learning." In 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pp. 914-919. IEEE, 2019.
+
+```
+@inproceedings{yang2019liver,
+  title={Liver Histopathological Image Retrieval Based on Deep Metric Learning},
+  author={Yang, Pengshuai and Zhai, Yupeng and Li, Lin and Lv, Hairong and Wang, Jigang and Zhu, Chengzhan and Jiang, Rui},
+  booktitle={2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={914--919},
+  year={2019},
+  organization={IEEE}
+}
+```
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
