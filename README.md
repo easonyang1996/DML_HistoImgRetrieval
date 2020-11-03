@@ -58,7 +58,7 @@ The proposed method achieves the new state-of-the-art on Kimia Path24 retrieval 
 
 **Yang, Pengshuai**, Yupeng Zhai, Lin Li, Hairong Lv, Jigang Wang, Chengzhan Zhu, and Rui Jiang. "Liver Histopathological Image Retrieval Based on Deep Metric Learning." In 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pp. 914-919. IEEE, 2019.
 
-**Yang, Pengshuai**, Yupeng Zhai, Lin Li, Hairong Lv, Jigang Wang, Chengzhan Zhu, and Rui Jiang. "A deep metric learning approach for histopathological image retrieval." Methods, in press (2020).
+**Yang, Pengshuai**, Yupeng Zhai, Lin Li, Hairong Lv, Jigang Wang, Chengzhan Zhu, and Rui Jiang. "A deep metric learning approach for histopathological image retrieval." Methods (2020).
 
 ```
 @inproceedings{yang2019liver,
